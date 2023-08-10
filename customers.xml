@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <CustomerFirstName>Khaleed</CustomerFirstName>
+    <CustomerLastName>Opeloyeru</CustomerLastName>
+    <CustomerDOB>2005-06-18T00:00:00</CustomerDOB>
+    <CustomerPhoneNumber>4373665404</CustomerPhoneNumber>
+    <CustomerAddress>100 brickyard way</CustomerAddress>
+    <CustomerBankAccounts>
+      <BankAccount>
+        <AccountFirstName>Khaleed</AccountFirstName>
+        <AccountLastName>Opeloyeru</AccountLastName>
+        <AccountNumber>000000001</AccountNumber>
+        <AccountBalance>0</AccountBalance>
+      </BankAccount>
+    </CustomerBankAccounts>
+    <CustomerCards>
+      <Card>
+        <CardOwner>Khaleed Opeloyeru</CardOwner>
+        <CardNumber>1111111111111111</CardNumber>
+        <CardPin>1111</CardPin>
+      </Card>
+    </CustomerCards>
+    <UserID>000000001</UserID>
+    <UserPassword>1111</UserPassword>
+  </Customer>
+  <Customer>
+    <CustomerFirstName>Ayobami</CustomerFirstName>
+    <CustomerDOB>2006-06-18T00:00:00</CustomerDOB>
+    <CustomerPhoneNumber>4373665403</CustomerPhoneNumber>
+    <CustomerAddress>101 brickyard way</CustomerAddress>
+    <CustomerBankAccounts />
+    <CustomerCards />
+  </Customer>
+</ArrayOfCustomer>
